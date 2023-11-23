@@ -8,7 +8,7 @@ The KiberBank API allows retrieval of user data based on their email from a data
 
 ### Base URL
 
-`bank.hoku.ge/api/bot.php`
+`https://bank.hoku.ge/api/bot.php`
 
 ### Endpoints
 
@@ -76,7 +76,7 @@ To retrieve user data, make a `POST` request to the endpoint URL with the `email
 
 ```
 POST /api/bot.php HTTP/1.1
-Host: bank.hoku.ge
+Host: https://bank.hoku.ge
 Content-Type: application/json
 
 {
